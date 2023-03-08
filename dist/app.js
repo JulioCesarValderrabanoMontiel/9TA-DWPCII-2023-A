@@ -1,3 +1,5 @@
+"use strict";
+
 // Helps to handle http errors
 const createError = require('http-errors');
 // Import the Express Library
@@ -10,9 +12,9 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 // Importing subroutes
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
-const apiRouter = require('./routes/api');
+const indexRouter = require("./routes");
+const usersRouter = require("./routes/users");
+const apiRouter = require("./routes/api");
 
 // We are creating the express instance
 const app = express();

@@ -1,3 +1,5 @@
+"use strict";
+
 // Importing Express library
 const express = require('express');
 // Creating a Router Instace

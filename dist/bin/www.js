@@ -5,7 +5,9 @@
  */
 // Importing the server logic
 // require is used to import code from an external file 
-const app = require('../app');
+"use strict";
+
+const app = require("../app");
 // Importing an external dependecy
 const debug = require('debug')('projnotes');
 // Module that allows to communicate with a client

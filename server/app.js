@@ -10,9 +10,9 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 // Importing subroutes
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
-const apiRouter = require('./routes/api');
+const indexRouter = require('@server/routes/index');
+const usersRouter = require('@server/routes/users');
+const apiRouter = require('@server/routes/api');
 
 // We are creating the express instance
 const app = express();
