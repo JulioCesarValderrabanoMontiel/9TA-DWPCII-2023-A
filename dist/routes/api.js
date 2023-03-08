@@ -1,20 +1,7 @@
-"use strict";
-
-// Importing Express library
-const express = require('express');
-// Creating a Router Instace
-const router = express.Router();
-
+"use strict";// Importing Express library
+const express=require("express"),router=express.Router();// Creating a Router Instace
 // Creating the route
-router.get('/author', (req, res) => {
-  // Responding to the client using res object
-  res.json({
-    "name": "Jorge Ivan",
-    "lastname": "Rivalcoba Rivas",
-    "twitter": "@rivalcoba",
-    "job": "ITGAM 🏫"
-  });
-}); // function(req, res){}
-
+// function(req, res){}
 // Exporting the router
-module.exports = router;
+router.get("/author",(req,res)=>{// Responding to the client using res object
+res.json({name:"JUlio Cesar",lastname:"Valderrabano Montiel",twitter:"@julio",job:"ITGAM \uD83C\uDFEB"})}),module.exports=router;
