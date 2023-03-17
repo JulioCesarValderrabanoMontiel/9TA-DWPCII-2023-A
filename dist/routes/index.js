@@ -1,3 +1,3 @@
 "use strict";const express=require("express"),router=express.Router();/* GET home page. */router.get("/",function(req,res){let icon=["\u2B50","\uD83E\uDD16","\uD83C\uDF49"][Math.floor(3*Math.random())];res.render("index",{title:"DWPCII-2023A",icon})}),router.get("/author",(req,res)=>{// Creating a View-Model
 // Sending the view-model to be rendered by a View
-res.render("author",{name:"Ivan",lastname:"Rivalcoba",twitter:"@rivalcoba",job:"ITGAM"})}),module.exports=router;
+res.render("author",{name:"Julio",lastname:"Montiel",twitter:"@JulioMont",job:"ITGAM"})}),module.exports=router;
