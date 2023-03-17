@@ -12,8 +12,8 @@ router.get('/author', (req, res)=>{
   // Creating a View-Model
   let author = {
     "name": "Ivan",
-    "lastname": "Rivalcoba",
-    "twitter": "@rivalcoba",
+    "lastname": "Julio",
+    "twitter": "@Julio",
     "job": "ITGAM"
   };
   // Sending the view-model to be rendered by a View
